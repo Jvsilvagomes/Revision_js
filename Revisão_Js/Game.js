@@ -17,8 +17,8 @@ while(VidaPikachu >= 0 && VidaCharmander >= 0){
     console.log(`🔁Rodada`, rodada)
 
 // Danos dos ataques 
-    ThunderShock = Math.floor(Math.random(8) * 28);
-    FlareBlitz = Math.floor(Math.random(10) * 25);
+    ThunderShock = Math.floor(Math.random(0) * 25);
+    FlareBlitz = Math.floor(Math.random(0) * 18);
 
 // Comeco da trocacao de ataque
 
