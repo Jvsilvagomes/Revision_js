@@ -27,8 +27,8 @@ while(VidaPikachu >= 0 && VidaCharmander >= 0){
 
 // danos da rodada
 
-    console.log(`Chamander usou 🔥Flare Blitz e deu ${FlareBlitz} de dano! `);
-    console.log(`Pikachu usou ⚡Thunder Shock e deu ${ThunderShock} de dano! `);
+    console.log(`Chamander usou 🔥Flare Blitz e causou ${FlareBlitz} de dano! `);
+    console.log(`Pikachu usou ⚡Thunder Shock e causou ${ThunderShock} de dano! `);
 // Vida pos dano recebido
 
     console.log(`❤️ A vida do Pikachu é de ${VidaPikachu}`);
