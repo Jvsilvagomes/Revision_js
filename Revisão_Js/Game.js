@@ -17,8 +17,8 @@ while(VidaPikachu >= 0 && VidaCharmander >= 0){
     console.log(`🔁Rodada`, rodada)
 
 // Danos dos ataques 
-    ThunderShock = Math.floor(Math.random(8) * 28)
-    FlareBlitz = Math.floor(Math.random(10) * 25)
+    ThunderShock = Math.floor(Math.random(8) * 28);
+    FlareBlitz = Math.floor(Math.random(10) * 25);
 
 // Comeco da trocacao de ataque
 
@@ -27,25 +27,24 @@ while(VidaPikachu >= 0 && VidaCharmander >= 0){
 
 // danos da rodada
 
-    console.log(`Chamander usou 🔥Flare Blitz e deu ${FlareBlitz} de dano! `)
-    console.log(`Pikachu usou ⚡Thunder Shock e deu ${ThunderShock} de dano! `)
-
+    console.log(`Chamander usou 🔥Flare Blitz e deu ${FlareBlitz} de dano! `);
+    console.log(`Pikachu usou ⚡Thunder Shock e deu ${ThunderShock} de dano! `);
 // Vida pos dano recebido
 
-    console.log(`❤️ A vida do Pikachu é de ${VidaPikachu}`)
-    console.log(`❤️ A vida do Charmander é de ${VidaCharmander}`)
-    console.log(`-------------------------------------------------`)
+    console.log(`❤️ A vida do Pikachu é de ${VidaPikachu}`);
+    console.log(`❤️ A vida do Charmander é de ${VidaCharmander}`);
+    console.log(`-------------------------------------------------`);
 rodada++;
 }
 // declarando o vencedor da batalha
 
 if(VidaCharmander <= 0 && VidaPikachu <= 0){
-    console.log(`A batalha terminou em empate!`)
+    console.log(`A batalha terminou em empate!`);
 
 }else if(VidaCharmander > 0 ){
-    console.log(`🏆 Charmander torrou o Pikachu e leva a vitória!`)
+    console.log(`🏆 Charmander torrou o Pikachu e leva a vitória!`);
 }else{
-    console.log(`🏆 Pikachu vence a batalha com um trovão final!`)
+    console.log(`🏆 Pikachu vence a batalha com um trovão final!`);
 }
 
 // João Victor 11/04/2025
